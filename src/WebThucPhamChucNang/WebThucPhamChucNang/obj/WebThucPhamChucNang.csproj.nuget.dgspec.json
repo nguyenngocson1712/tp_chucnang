@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\2011432_KT\\WebThucPhamChucNang\\WebThucPhamChucNang\\WebThucPhamChucNang.csproj": {}
+    "D:\\TPCN\\tp_chucnang\\src\\WebThucPhamChucNang\\WebThucPhamChucNang\\WebThucPhamChucNang.csproj": {}
   },
   "projects": {
-    "D:\\2011432_KT\\WebThucPhamChucNang\\WebThucPhamChucNang\\WebThucPhamChucNang.csproj": {
+    "D:\\TPCN\\tp_chucnang\\src\\WebThucPhamChucNang\\WebThucPhamChucNang\\WebThucPhamChucNang.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\2011432_KT\\WebThucPhamChucNang\\WebThucPhamChucNang\\WebThucPhamChucNang.csproj",
+        "projectUniqueName": "D:\\TPCN\\tp_chucnang\\src\\WebThucPhamChucNang\\WebThucPhamChucNang\\WebThucPhamChucNang.csproj",
         "projectName": "WebThucPhamChucNang",
-        "projectPath": "D:\\2011432_KT\\WebThucPhamChucNang\\WebThucPhamChucNang\\WebThucPhamChucNang.csproj",
+        "projectPath": "D:\\TPCN\\tp_chucnang\\src\\WebThucPhamChucNang\\WebThucPhamChucNang\\WebThucPhamChucNang.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\2011432_KT\\WebThucPhamChucNang\\WebThucPhamChucNang\\obj\\",
+        "outputPath": "D:\\TPCN\\tp_chucnang\\src\\WebThucPhamChucNang\\WebThucPhamChucNang\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

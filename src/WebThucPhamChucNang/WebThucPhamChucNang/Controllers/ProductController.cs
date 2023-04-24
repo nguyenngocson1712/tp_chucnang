@@ -28,6 +28,7 @@ namespace WebThucPhamChucNang.Controllers
 
                 ViewBag.CurrentPage = pageNumber;
                 ViewData["DanhMuc"] = new SelectList(_context.Categories, "CatId", "CatName");
+                ViewData["Tag"] = new SelectList(_context.Products, "CatId", "Tag");
                 return View(models);
             }
             catch

@@ -1,7 +1,7 @@
 ﻿@model PagedList.Core.IPagedList<WebThucPhamChucNang.Models.TinDang>
 @using PagedList.Core.Mvc;
 @{
-    ViewData["Title"] = "Blog Index"+ ViewBag.CurrentPage;
+    ViewData["Title"] = "Blog Trang"+ ViewBag.CurrentPage;
     Layout = "~/Views/Shared/_Layout.cshtml";
     int PageCurrent = ViewBag.CurrentPage;
     int PageNext = PageCurrent + 1;
@@ -91,8 +91,8 @@
                                     </li>
                                 }
                                
-                                <li class="page-item active"><a class="page-link" href="#">@PageCurrent</a></li>
-                                <li class="page-item"><a class="page-link" href="#">@PageNext</a></li>
+                                <li class="page-item active"><a class="page-link" href="/blogs.html?page=@PageCurrent">@PageCurrent</a></li>
+                                <li class="page-item"><a class="page-link" href="/blogs.html?page=@PageNext">@PageNext</a></li>
                                 <li class="page-item">
                                     <a class="page-link" href="#" aria-label="Next">
                                         <span class="fa fa-chevron-right"></span>

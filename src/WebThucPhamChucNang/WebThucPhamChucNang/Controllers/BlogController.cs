@@ -19,7 +19,7 @@ namespace WebThucPhamChucNang.Controllers
         {
              
             var pageNumber = page == null || page <= 0 ? 1 : page.Value;
-            var pageSize = 20;
+            var pageSize = 10;
             var IsTinDangs = _context.TinDangs
                 .AsNoTracking()
 

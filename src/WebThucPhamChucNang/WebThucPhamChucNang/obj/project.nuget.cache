@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2Peuf6dm7821h+rqC6VL0wWzTZEsAYcF55ufUez8L678MLRLofsY+Thg550rKmJ7NUgPk9rCtSoLefgpMTSr7Q==",
+  "dgSpecHash": "PBijx90s0XkXCqfm4t6teo90RVRi78svQsjvngZSTRMbejyh0qL3TlgYyEO3YMwDgS4+w1aSgVdYxAanPgUkiA==",
   "success": true,
-  "projectFilePath": "D:\\2011432_KT\\WebThucPhamChucNang\\WebThucPhamChucNang\\WebThucPhamChucNang.csproj",
+  "projectFilePath": "D:\\TPCN\\tp_chucnang\\src\\WebThucPhamChucNang\\WebThucPhamChucNang\\WebThucPhamChucNang.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\aspnetcorehero.toastnotification\\1.1.0\\aspnetcorehero.toastnotification.1.1.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
