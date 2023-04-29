@@ -3877,6 +3877,10 @@
       "PackagePath": "staticwebassets\\assets\\images\\banner\\3-1-1920x582.jpg"
     },
     {
+      "Id": "D:\\TPCN\\tp_chucnang\\src\\WebThucPhamChucNang\\WebThucPhamChucNang\\wwwroot\\assets\\images\\banner\\banner.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\banner\\banner.jpg"
+    },
+    {
       "Id": "D:\\TPCN\\tp_chucnang\\src\\WebThucPhamChucNang\\WebThucPhamChucNang\\wwwroot\\assets\\images\\banner\\category-icon\\1.png",
       "PackagePath": "staticwebassets\\assets\\images\\banner\\category-icon\\1.png"
     },
@@ -4803,6 +4807,10 @@
     {
       "Id": "D:\\TPCN\\tp_chucnang\\src\\WebThucPhamChucNang\\WebThucPhamChucNang\\wwwroot\\images\\pages\\huong-dan-mua-hang.jfif",
       "PackagePath": "staticwebassets\\images\\pages\\huong-dan-mua-hang.jfif"
+    },
+    {
+      "Id": "D:\\TPCN\\tp_chucnang\\src\\WebThucPhamChucNang\\WebThucPhamChucNang\\wwwroot\\images\\pages\\huong-dan-mua-hang.jpg",
+      "PackagePath": "staticwebassets\\images\\pages\\huong-dan-mua-hang.jpg"
     },
     {
       "Id": "D:\\TPCN\\tp_chucnang\\src\\WebThucPhamChucNang\\WebThucPhamChucNang\\wwwroot\\images\\pages\\huong-dan-thanh-toan.jfif",

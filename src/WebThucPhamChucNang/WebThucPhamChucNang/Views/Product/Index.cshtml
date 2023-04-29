@@ -10,7 +10,7 @@
 
 
 <main class="main-content">
-    <div class="breadcrumb-area breadcrumb-height" data-bg-image="/assets/images/banner/2-1-1920x523.jpg">
+    <div class="breadcrumb-area breadcrumb-height" data-bg-image="/assets/images/banner/banner.jpg">
         <div class="container h-100">
             <div class="row h-100">
                 <div class="col-lg-12">
@@ -33,24 +33,19 @@
                 <div class="col-lg-3 order-lg-1 order-2 pt-10 pt-lg-0">
                     <div class="sidebar-area">
                         <div class="widgets-searchbox mb-9">
-                            
-                            <form id="widgets-searchbox" action="#">
-                                <input class="input-field" type="text" placeholder="Search">
+
+                            <form id="widgets-searchbox">
+                                <input class="input-field" type="text" name="keyword" id="keyword" placeholder="Search">
                                 <button class="widgets-searchbox-btn" type="submit">
                                     <i class="pe-7s-search"></i>
                                 </button>
                             </form>
-                             
-                        </div> <div class="widgets-area mb-9">
-                            <select class="custom-select" id="txtCatID" name="txtCatID" style="min-width: 200px;" asp-items="ViewBag.DanhMuc">
-                                <option selected>Chọn danh mục</option>
-                                <option value="0">Chọn tất cả</option>
-                            </select>
 
+                        </div> <div class="widgets-area mb-9">
+                            <select class="custom-select" id="catid" name="catid" style="min-width: 200px;" asp-items="ViewBag.DanhMuc">
+                                <option value="0" selected>Chọn danh mục</option>
+                            </select>
                         </div>
-                       
-                       
-                      
                         <div class="widgets-area mb-9">
                             <h2 class="widgets-title mb-5">Top Rated Products</h2>
                             <div class="widgets-item">
@@ -65,20 +60,20 @@
                                                 </div>
                                                 <div class="product-content">
                                                     <a class="product-name" href="single-product.html">
-                                                    <div class="price-box pb-1">
-                                                        <span class="new-price">VND</span>
-                                                    </div>
-                                                    <div class="rating-box-wrap">
-                                                        <div class="rating-box">
-                                                            <ul>
-                                                                <li><i class="pe-7s-star"></i></li>
-                                                                <li><i class="pe-7s-star"></i></li>
-                                                                <li><i class="pe-7s-star"></i></li>
-                                                                <li><i class="pe-7s-star"></i></li>
-                                                                <li><i class="pe-7s-star"></i></li>
-                                                            </ul>
+                                                        <div class="price-box pb-1">
+                                                            <span class="new-price">VND</span>
                                                         </div>
-                                                    </div>
+                                                        <div class="rating-box-wrap">
+                                                            <div class="rating-box">
+                                                                <ul>
+                                                                    <li><i class="pe-7s-star"></i></li>
+                                                                    <li><i class="pe-7s-star"></i></li>
+                                                                    <li><i class="pe-7s-star"></i></li>
+                                                                    <li><i class="pe-7s-star"></i></li>
+                                                                    <li><i class="pe-7s-star"></i></li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -181,7 +176,7 @@
                                 </ul>
                             </li>
                             <li class="page-count">
-                               
+
                             </li>
                             <li class="short">
                                 <select class="nice-select wide rounded-0">
@@ -232,7 +227,7 @@
                                                 <div class="product-content">
                                                     <a class="product-name" href="@url">@item.ProductName</a>
                                                     <div class="price-box pb-1">
-                                                        <span class="new-price">@item.Price.Value.ToString("#,##0") VNĐ</span>
+                                                        <span class="new-price">@item.Price.Value.ToString("#,##0")VNĐ</span>
                                                     </div>
                                                     <div class="rating-box">
                                                         <ul>
@@ -287,7 +282,7 @@
                                                 <div class="product-content align-self-center">
                                                     <a class="product-name pb-2" href="@url">@item.ProductName</a>
                                                     <div class="price-box pb-1">
-                                                        <span class="new-price">@item.Price</span>
+                                                        <span class="new-price">@item.Price.Value.ToString("#,##0")VNĐ</span>
                                                     </div>
                                                     <div class="rating-box pb-2">
                                                         <ul>
@@ -319,54 +314,20 @@
         </div>
     </div>
 </main>
-
-@*@section Scripts{
+@section Scripts {
     <script>
         $(document).ready(function () {
-            jQuery("#txtCatID").change(function () {
-                var catID = jQuery(this).children(":selected").attr("value");
-                catID = parseFloat(catID);
-                $('#txtCatID option')
-                    .removeAttr('selected');
-                $("#txtCatID > [value=" + catID + "]").attr("selected", "true");
-                $.ajax({
-                    url: '/Product/Filtter',
-                    datatype: "json",
-                    type: "GET",
-                    data: {
-                        CatID: catID
-                    },
-                    async: true,
-                    success: function (results) {
-                        if (results.status == "success") {
-                            window.location.href = results.redirectUrl;
-                        }
-                    },
-                    error: function (xhr) {
-                        alert('error');
-                    }
-                });
-            });
-
-            $("#keyword").keyup(function () {
+            jQuery(".widgets-searchbox-btn").click(function () {
                 var strkeyword = $('#keyword').val();
-                $.ajax({
-                    url: '/Admin/Search/FindProduct/',
-                    datatype: "json",
-                    type: "POST",
-                    data: { keyword: strkeyword },
-                    async: true,
-                    success: function (results) {
-                        $("#records_table").html("");
-                        $("#records_table").html(results);
-                    },
-                    error: function (xhr) {
-                        alert('error');
-                    }
-                });
+                window.location.href = "/shop.html?keyword=" + strkeyword;
+            });
+            jQuery("#catid").change(function () {
+                var idcat = jQuery(this).children(":selected").attr("value");
+                $('#catid option')
+                    .removeAttr('selected');
+                $("#catid > [value=" + idcat + "]").attr("selected", "true");
+                window.location.href = "/shop.html?catid=" + idcat;
             });
         });
     </script>
-
 }
-*@

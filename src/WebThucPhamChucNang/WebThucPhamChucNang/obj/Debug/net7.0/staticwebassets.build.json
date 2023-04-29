@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "1DxRlV9Cg9qfXtBMu5skfUpy/N6VCW5HIdQX0oEOXDM=",
+  "Hash": "ldGOnUH254RUQO/QvuDCLTdCKQpYWqoBMyborKD4XjM=",
   "Source": "WebThucPhamChucNang",
   "BasePath": "_content/WebThucPhamChucNang",
   "Mode": "Default",
@@ -16575,6 +16575,23 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\banner\\3-1-1920x582.jpg"
     },
     {
+      "Identity": "D:\\TPCN\\tp_chucnang\\src\\WebThucPhamChucNang\\WebThucPhamChucNang\\wwwroot\\assets\\images\\banner\\banner.jpg",
+      "SourceId": "WebThucPhamChucNang",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\TPCN\\tp_chucnang\\src\\WebThucPhamChucNang\\WebThucPhamChucNang\\wwwroot\\",
+      "BasePath": "_content/WebThucPhamChucNang",
+      "RelativePath": "assets/images/banner/banner.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\banner\\banner.jpg"
+    },
+    {
       "Identity": "D:\\TPCN\\tp_chucnang\\src\\WebThucPhamChucNang\\WebThucPhamChucNang\\wwwroot\\assets\\images\\banner\\category-icon\\1.png",
       "SourceId": "WebThucPhamChucNang",
       "SourceType": "Discovered",
@@ -20517,6 +20534,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\pages\\huong-dan-mua-hang.jfif"
+    },
+    {
+      "Identity": "D:\\TPCN\\tp_chucnang\\src\\WebThucPhamChucNang\\WebThucPhamChucNang\\wwwroot\\images\\pages\\huong-dan-mua-hang.jpg",
+      "SourceId": "WebThucPhamChucNang",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\TPCN\\tp_chucnang\\src\\WebThucPhamChucNang\\WebThucPhamChucNang\\wwwroot\\",
+      "BasePath": "_content/WebThucPhamChucNang",
+      "RelativePath": "images/pages/huong-dan-mua-hang.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\pages\\huong-dan-mua-hang.jpg"
     },
     {
       "Identity": "D:\\TPCN\\tp_chucnang\\src\\WebThucPhamChucNang\\WebThucPhamChucNang\\wwwroot\\images\\pages\\huong-dan-thanh-toan.jfif",

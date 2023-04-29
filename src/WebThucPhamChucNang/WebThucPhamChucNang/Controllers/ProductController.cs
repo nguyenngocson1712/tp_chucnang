@@ -14,27 +14,52 @@ namespace WebThucPhamChucNang.Controllers
             _context = context;
         }
         [Route("shop.html", Name = ("ShopProduct"))]
-        public IActionResult Index(int? page)
+        public async Task<IActionResult>  Index(int? page, int catid=0, string keyword="")
         {
-           
             try
             {
                 var pageNumber = page == null || page <= 0 ? 1 : page.Value;
                 var pageSize = 10;
-                var lsTinDangs = _context.Products
-                    .AsNoTracking()
-                    .OrderBy(x => x.DateCreated);
-                PagedList<Product> models = new PagedList<Product>(lsTinDangs, pageNumber, pageSize);
-
                 ViewBag.CurrentPage = pageNumber;
-                ViewData["DanhMuc"] = new SelectList(_context.Categories, "CatId", "CatName");
-                ViewData["Tag"] = new SelectList(_context.Products, "CatId", "Tag");
+                List<Product> products = new List<Product>();
+                if (catid != 0)
+                {
+                    products = await _context.Products
+                        .Include(x => x.Cat)
+                        .Where(x => x.CatId == catid)
+                        .AsNoTracking()
+                        .OrderByDescending(x => x.ProductId)
+                        .ToListAsync();
+                    if (!string.IsNullOrEmpty(keyword))
+                    {
+                        products = products.Where(x => x.ProductName == keyword).ToList();
+                    }
+                }
+                else
+                {
+                    products = await _context.Products
+                         .Include(x => x.Cat)
+
+                        .AsNoTracking()
+                        .OrderByDescending(x => x.ProductId)
+                        .ToListAsync();
+                    if (!string.IsNullOrEmpty(keyword))
+                    {
+                        products = products.Where(x => x.ProductName == keyword).ToList();
+                    }
+                }
+               
+                PagedList<Product> models = new PagedList<Product>(products.AsQueryable(), pageNumber, pageSize);
+                ViewBag.CurrentCatid = catid;
+                ViewBag.Currentkeyword = keyword;
+                ViewData["DanhMuc"] = new SelectList(_context.Categories, "CatId", "CatName", catid);
                 return View(models);
             }
             catch
             {
                 return RedirectToAction("Index", "Home");
             }
+
             
         }
         //public IActionResult Filtter(int CatID = 0)
