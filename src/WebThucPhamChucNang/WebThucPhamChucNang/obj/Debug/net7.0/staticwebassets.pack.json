@@ -3905,6 +3905,10 @@
       "PackagePath": "staticwebassets\\assets\\images\\banner\\inner-img\\2-1-503x430.png"
     },
     {
+      "Id": "D:\\TPCN\\tp_chucnang\\src\\WebThucPhamChucNang\\WebThucPhamChucNang\\wwwroot\\assets\\images\\banner\\inner-img\\shop.png",
+      "PackagePath": "staticwebassets\\assets\\images\\banner\\inner-img\\shop.png"
+    },
+    {
       "Id": "D:\\TPCN\\tp_chucnang\\src\\WebThucPhamChucNang\\WebThucPhamChucNang\\wwwroot\\assets\\images\\blog\\banner\\1-1-370x400.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\banner\\1-1-370x400.jpg"
     },
@@ -4753,6 +4757,14 @@
       "PackagePath": "staticwebassets\\images\\category\\tpcn-nhom-tim-mach.png"
     },
     {
+      "Id": "D:\\TPCN\\tp_chucnang\\src\\WebThucPhamChucNang\\WebThucPhamChucNang\\wwwroot\\images\\news\\ban-da-an-du-rau-moi-ngay-hay-chua.jpg",
+      "PackagePath": "staticwebassets\\images\\news\\ban-da-an-du-rau-moi-ngay-hay-chua.jpg"
+    },
+    {
+      "Id": "D:\\TPCN\\tp_chucnang\\src\\WebThucPhamChucNang\\WebThucPhamChucNang\\wwwroot\\images\\news\\bo-sung-loi-khuan-livespo-colon.jpg",
+      "PackagePath": "staticwebassets\\images\\news\\bo-sung-loi-khuan-livespo-colon.jpg"
+    },
+    {
       "Id": "D:\\TPCN\\tp_chucnang\\src\\WebThucPhamChucNang\\WebThucPhamChucNang\\wwwroot\\images\\news\\bo-sung-vitamin-tang-de-khang-an-toan-va-hieu-qua.jpg",
       "PackagePath": "staticwebassets\\images\\news\\bo-sung-vitamin-tang-de-khang-an-toan-va-hieu-qua.jpg"
     },
@@ -4761,8 +4773,20 @@
       "PackagePath": "staticwebassets\\images\\news\\ca-nha-khoe-vui-he-nang-dong-cung-drfrei.jpg"
     },
     {
+      "Id": "D:\\TPCN\\tp_chucnang\\src\\WebThucPhamChucNang\\WebThucPhamChucNang\\wwwroot\\images\\news\\cach-tang-cuong-he-mien-dich.jpg",
+      "PackagePath": "staticwebassets\\images\\news\\cach-tang-cuong-he-mien-dich.jpg"
+    },
+    {
       "Id": "D:\\TPCN\\tp_chucnang\\src\\WebThucPhamChucNang\\WebThucPhamChucNang\\wwwroot\\images\\news\\che-do-an-cho-nguoi-viem-gan.jpg",
       "PackagePath": "staticwebassets\\images\\news\\che-do-an-cho-nguoi-viem-gan.jpg"
+    },
+    {
+      "Id": "D:\\TPCN\\tp_chucnang\\src\\WebThucPhamChucNang\\WebThucPhamChucNang\\wwwroot\\images\\news\\giai-dap-cac-cau-hoi-thuong-gap-ve-vac-xin.jpg",
+      "PackagePath": "staticwebassets\\images\\news\\giai-dap-cac-cau-hoi-thuong-gap-ve-vac-xin.jpg"
+    },
+    {
+      "Id": "D:\\TPCN\\tp_chucnang\\src\\WebThucPhamChucNang\\WebThucPhamChucNang\\wwwroot\\images\\news\\hot-2022.jpg",
+      "PackagePath": "staticwebassets\\images\\news\\hot-2022.jpg"
     },
     {
       "Id": "D:\\TPCN\\tp_chucnang\\src\\WebThucPhamChucNang\\WebThucPhamChucNang\\wwwroot\\images\\news\\hot-2022.png",
@@ -4773,12 +4797,24 @@
       "PackagePath": "staticwebassets\\images\\news\\hot-deal-tang-ngay-coupon-30000d.jpg"
     },
     {
+      "Id": "D:\\TPCN\\tp_chucnang\\src\\WebThucPhamChucNang\\WebThucPhamChucNang\\wwwroot\\images\\news\\kem-boi-da-thuan-moc-thanh.jpg",
+      "PackagePath": "staticwebassets\\images\\news\\kem-boi-da-thuan-moc-thanh.jpg"
+    },
+    {
       "Id": "D:\\TPCN\\tp_chucnang\\src\\WebThucPhamChucNang\\WebThucPhamChucNang\\wwwroot\\images\\news\\mua-hotchland-rinh-qua-xin.jpg",
       "PackagePath": "staticwebassets\\images\\news\\mua-hotchland-rinh-qua-xin.jpg"
     },
     {
+      "Id": "D:\\TPCN\\tp_chucnang\\src\\WebThucPhamChucNang\\WebThucPhamChucNang\\wwwroot\\images\\news\\mua-innon-ruoc-xe-xin-rinh-qua-dinh.jpg",
+      "PackagePath": "staticwebassets\\images\\news\\mua-innon-ruoc-xe-xin-rinh-qua-dinh.jpg"
+    },
+    {
       "Id": "D:\\TPCN\\tp_chucnang\\src\\WebThucPhamChucNang\\WebThucPhamChucNang\\wwwroot\\images\\news\\mua-solgar-trung-qua-sanh-dieu.jpg",
       "PackagePath": "staticwebassets\\images\\news\\mua-solgar-trung-qua-sanh-dieu.jpg"
+    },
+    {
+      "Id": "D:\\TPCN\\tp_chucnang\\src\\WebThucPhamChucNang\\WebThucPhamChucNang\\wwwroot\\images\\news\\mua-vitabiotics-trung-qua-that-thich.jpg",
+      "PackagePath": "staticwebassets\\images\\news\\mua-vitabiotics-trung-qua-that-thich.jpg"
     },
     {
       "Id": "D:\\TPCN\\tp_chucnang\\src\\WebThucPhamChucNang\\WebThucPhamChucNang\\wwwroot\\images\\news\\nhiem-doc-thuy-ngan-nguy-hiem-the-nao.jpg",
@@ -4789,12 +4825,24 @@
       "PackagePath": "staticwebassets\\images\\news\\pharmacity-va-mega-we-care-hop-tac-chien-luoc.jpg"
     },
     {
+      "Id": "D:\\TPCN\\tp_chucnang\\src\\WebThucPhamChucNang\\WebThucPhamChucNang\\wwwroot\\images\\news\\phong-dich-covid-19-khong-dung-khau-trang-y-te.jpg",
+      "PackagePath": "staticwebassets\\images\\news\\phong-dich-covid-19-khong-dung-khau-trang-y-te.jpg"
+    },
+    {
+      "Id": "D:\\TPCN\\tp_chucnang\\src\\WebThucPhamChucNang\\WebThucPhamChucNang\\wwwroot\\images\\news\\qua-tet-me-ly-li-xi-het-y.jpg",
+      "PackagePath": "staticwebassets\\images\\news\\qua-tet-me-ly-li-xi-het-y.jpg"
+    },
+    {
       "Id": "D:\\TPCN\\tp_chucnang\\src\\WebThucPhamChucNang\\WebThucPhamChucNang\\wwwroot\\images\\news\\uu-dai-dac-quyen-tai-pharmacity.jpg",
       "PackagePath": "staticwebassets\\images\\news\\uu-dai-dac-quyen-tai-pharmacity.jpg"
     },
     {
       "Id": "D:\\TPCN\\tp_chucnang\\src\\WebThucPhamChucNang\\WebThucPhamChucNang\\wwwroot\\images\\news\\vi-sao-can-tiem-chung-day-du-va-dung-lich.jpg",
       "PackagePath": "staticwebassets\\images\\news\\vi-sao-can-tiem-chung-day-du-va-dung-lich.jpg"
+    },
+    {
+      "Id": "D:\\TPCN\\tp_chucnang\\src\\WebThucPhamChucNang\\WebThucPhamChucNang\\wwwroot\\images\\news\\vi-sao-can-tiem-chung-day-du.jpg",
+      "PackagePath": "staticwebassets\\images\\news\\vi-sao-can-tiem-chung-day-du.jpg"
     },
     {
       "Id": "D:\\TPCN\\tp_chucnang\\src\\WebThucPhamChucNang\\WebThucPhamChucNang\\wwwroot\\images\\pages\\huong-dan-dang-ky.jfif",
