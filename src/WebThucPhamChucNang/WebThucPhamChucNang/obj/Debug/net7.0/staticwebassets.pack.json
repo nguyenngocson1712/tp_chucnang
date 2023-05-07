@@ -225,6 +225,10 @@
       "PackagePath": "staticwebassets\\Adminassets\\images\\avatars\\thumb-9.jpg"
     },
     {
+      "Id": "D:\\TPCN\\tp_chucnang\\src\\WebThucPhamChucNang\\WebThucPhamChucNang\\wwwroot\\Adminassets\\images\\logo\\admin.png",
+      "PackagePath": "staticwebassets\\Adminassets\\images\\logo\\admin.png"
+    },
+    {
       "Id": "D:\\TPCN\\tp_chucnang\\src\\WebThucPhamChucNang\\WebThucPhamChucNang\\wwwroot\\Adminassets\\images\\logo\\favicon.png",
       "PackagePath": "staticwebassets\\Adminassets\\images\\logo\\favicon.png"
     },
@@ -3989,6 +3993,10 @@
       "PackagePath": "staticwebassets\\assets\\images\\breadcrumb\\bg\\1-1-1920x373.jpg"
     },
     {
+      "Id": "D:\\TPCN\\tp_chucnang\\src\\WebThucPhamChucNang\\WebThucPhamChucNang\\wwwroot\\assets\\images\\breadcrumb\\bg\\banner.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\breadcrumb\\bg\\banner.jpg"
+    },
+    {
       "Id": "D:\\TPCN\\tp_chucnang\\src\\WebThucPhamChucNang\\WebThucPhamChucNang\\wwwroot\\assets\\images\\favicon.ico",
       "PackagePath": "staticwebassets\\assets\\images\\favicon.ico"
     },
@@ -4147,6 +4155,18 @@
     {
       "Id": "D:\\TPCN\\tp_chucnang\\src\\WebThucPhamChucNang\\WebThucPhamChucNang\\wwwroot\\assets\\images\\product\\small-size\\1-6-112x124.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\product\\small-size\\1-6-112x124.jpg"
+    },
+    {
+      "Id": "D:\\TPCN\\tp_chucnang\\src\\WebThucPhamChucNang\\WebThucPhamChucNang\\wwwroot\\assets\\images\\product\\small-size\\ima (1).jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\small-size\\ima (1).jpg"
+    },
+    {
+      "Id": "D:\\TPCN\\tp_chucnang\\src\\WebThucPhamChucNang\\WebThucPhamChucNang\\wwwroot\\assets\\images\\product\\small-size\\tp.png",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\small-size\\tp.png"
+    },
+    {
+      "Id": "D:\\TPCN\\tp_chucnang\\src\\WebThucPhamChucNang\\WebThucPhamChucNang\\wwwroot\\assets\\images\\product\\small-size\\tp_2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\small-size\\tp_2.png"
     },
     {
       "Id": "D:\\TPCN\\tp_chucnang\\src\\WebThucPhamChucNang\\WebThucPhamChucNang\\wwwroot\\assets\\images\\shape\\1.png",
@@ -4737,6 +4757,10 @@
       "PackagePath": "staticwebassets\\images\\category\\thuoc-ngu.jfif"
     },
     {
+      "Id": "D:\\TPCN\\tp_chucnang\\src\\WebThucPhamChucNang\\WebThucPhamChucNang\\wwwroot\\images\\category\\tpcn-gan.jpg",
+      "PackagePath": "staticwebassets\\images\\category\\tpcn-gan.jpg"
+    },
+    {
       "Id": "D:\\TPCN\\tp_chucnang\\src\\WebThucPhamChucNang\\WebThucPhamChucNang\\wwwroot\\images\\category\\tpcn-nhom-da-day.jpg",
       "PackagePath": "staticwebassets\\images\\category\\tpcn-nhom-da-day.jpg"
     },
@@ -4779,6 +4803,10 @@
     {
       "Id": "D:\\TPCN\\tp_chucnang\\src\\WebThucPhamChucNang\\WebThucPhamChucNang\\wwwroot\\images\\news\\che-do-an-cho-nguoi-viem-gan.jpg",
       "PackagePath": "staticwebassets\\images\\news\\che-do-an-cho-nguoi-viem-gan.jpg"
+    },
+    {
+      "Id": "D:\\TPCN\\tp_chucnang\\src\\WebThucPhamChucNang\\WebThucPhamChucNang\\wwwroot\\images\\news\\demo-du-an.jpg",
+      "PackagePath": "staticwebassets\\images\\news\\demo-du-an.jpg"
     },
     {
       "Id": "D:\\TPCN\\tp_chucnang\\src\\WebThucPhamChucNang\\WebThucPhamChucNang\\wwwroot\\images\\news\\giai-dap-cac-cau-hoi-thuong-gap-ve-vac-xin.jpg",
@@ -4865,6 +4893,10 @@
       "PackagePath": "staticwebassets\\images\\pages\\huong-dan-thanh-toan.jfif"
     },
     {
+      "Id": "D:\\TPCN\\tp_chucnang\\src\\WebThucPhamChucNang\\WebThucPhamChucNang\\wwwroot\\images\\products\\bioco-huvit-valeria-max.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\bioco-huvit-valeria-max.jpg"
+    },
+    {
       "Id": "D:\\TPCN\\tp_chucnang\\src\\WebThucPhamChucNang\\WebThucPhamChucNang\\wwwroot\\images\\products\\bo-sung-loi-khuan-beres-probio6.jpg",
       "PackagePath": "staticwebassets\\images\\products\\bo-sung-loi-khuan-beres-probio6.jpg"
     },
@@ -4873,8 +4905,44 @@
       "PackagePath": "staticwebassets\\images\\products\\bo-sung-men-vi-sinh-livespo-clausy.jpg"
     },
     {
+      "Id": "D:\\TPCN\\tp_chucnang\\src\\WebThucPhamChucNang\\WebThucPhamChucNang\\wwwroot\\images\\products\\chi-khat-vuong.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\chi-khat-vuong.jpg"
+    },
+    {
+      "Id": "D:\\TPCN\\tp_chucnang\\src\\WebThucPhamChucNang\\WebThucPhamChucNang\\wwwroot\\images\\products\\chuyen-hoa-duong-fujina-insuna.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\chuyen-hoa-duong-fujina-insuna.jpg"
+    },
+    {
+      "Id": "D:\\TPCN\\tp_chucnang\\src\\WebThucPhamChucNang\\WebThucPhamChucNang\\wwwroot\\images\\products\\france-phytomax-q10-phap-eiffel.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\france-phytomax-q10-phap-eiffel.jpg"
+    },
+    {
+      "Id": "D:\\TPCN\\tp_chucnang\\src\\WebThucPhamChucNang\\WebThucPhamChucNang\\wwwroot\\images\\products\\giai-doc-gan.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\giai-doc-gan.jpg"
+    },
+    {
+      "Id": "D:\\TPCN\\tp_chucnang\\src\\WebThucPhamChucNang\\WebThucPhamChucNang\\wwwroot\\images\\products\\giam-dom-ho-kho-tho-bao-khi-khang.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\giam-dom-ho-kho-tho-bao-khi-khang.jpg"
+    },
+    {
+      "Id": "D:\\TPCN\\tp_chucnang\\src\\WebThucPhamChucNang\\WebThucPhamChucNang\\wwwroot\\images\\products\\ho-tro-ho-hap-an-hau-dan-kinh-do.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\ho-tro-ho-hap-an-hau-dan-kinh-do.jpg"
+    },
+    {
+      "Id": "D:\\TPCN\\tp_chucnang\\src\\WebThucPhamChucNang\\WebThucPhamChucNang\\wwwroot\\images\\products\\ho-tro-ho-hap-an-hau.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\ho-tro-ho-hap-an-hau.jpg"
+    },
+    {
+      "Id": "D:\\TPCN\\tp_chucnang\\src\\WebThucPhamChucNang\\WebThucPhamChucNang\\wwwroot\\images\\products\\hoat-huyet.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\hoat-huyet.jpg"
+    },
+    {
       "Id": "D:\\TPCN\\tp_chucnang\\src\\WebThucPhamChucNang\\WebThucPhamChucNang\\wwwroot\\images\\products\\men-vi-sinh-bifina-r.jpg",
       "PackagePath": "staticwebassets\\images\\products\\men-vi-sinh-bifina-r.jpg"
+    },
+    {
+      "Id": "D:\\TPCN\\tp_chucnang\\src\\WebThucPhamChucNang\\WebThucPhamChucNang\\wwwroot\\images\\products\\smard-devozym.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\smard-devozym.jpg"
     },
     {
       "Id": "D:\\TPCN\\tp_chucnang\\src\\WebThucPhamChucNang\\WebThucPhamChucNang\\wwwroot\\images\\products\\test.jpg",
@@ -4889,6 +4957,10 @@
       "PackagePath": "staticwebassets\\images\\products\\thuc-pham-bao-ve-suc-khoe-bao-ve-suc-khoe-ho-tro-tieu-hoa-ab-junior-pre-pro.jpg"
     },
     {
+      "Id": "D:\\TPCN\\tp_chucnang\\src\\WebThucPhamChucNang\\WebThucPhamChucNang\\wwwroot\\images\\products\\thuc-pham-bv-suc-khoe.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\thuc-pham-bv-suc-khoe.jpg"
+    },
+    {
       "Id": "D:\\TPCN\\tp_chucnang\\src\\WebThucPhamChucNang\\WebThucPhamChucNang\\wwwroot\\images\\products\\thuc-pham-bvsk-ho-tro-ala-bio.jpg",
       "PackagePath": "staticwebassets\\images\\products\\thuc-pham-bvsk-ho-tro-ala-bio.jpg"
     },
@@ -4899,6 +4971,10 @@
     {
       "Id": "D:\\TPCN\\tp_chucnang\\src\\WebThucPhamChucNang\\WebThucPhamChucNang\\wwwroot\\images\\products\\thuc-pham-dai-trang-tam-binh.jpg",
       "PackagePath": "staticwebassets\\images\\products\\thuc-pham-dai-trang-tam-binh.jpg"
+    },
+    {
+      "Id": "D:\\TPCN\\tp_chucnang\\src\\WebThucPhamChucNang\\WebThucPhamChucNang\\wwwroot\\images\\products\\thuc-pham-proantiobioplus.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\thuc-pham-proantiobioplus.jpg"
     },
     {
       "Id": "D:\\TPCN\\tp_chucnang\\src\\WebThucPhamChucNang\\WebThucPhamChucNang\\wwwroot\\images\\products\\thuc-pham-tieu-hoa-bidiphar-bidisubtilis.jpg",
@@ -4967,6 +5043,14 @@
     {
       "Id": "D:\\TPCN\\tp_chucnang\\src\\WebThucPhamChucNang\\WebThucPhamChucNang\\wwwroot\\images\\products\\thuoc.jpg",
       "PackagePath": "staticwebassets\\images\\products\\thuoc.jpg"
+    },
+    {
+      "Id": "D:\\TPCN\\tp_chucnang\\src\\WebThucPhamChucNang\\WebThucPhamChucNang\\wwwroot\\images\\products\\vien-ho-tro-giam-duong-huyet.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\vien-ho-tro-giam-duong-huyet.jpg"
+    },
+    {
+      "Id": "D:\\TPCN\\tp_chucnang\\src\\WebThucPhamChucNang\\WebThucPhamChucNang\\wwwroot\\images\\products\\vien-sui-ho-tro-giam-stress.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\vien-sui-ho-tro-giam-stress.jpg"
     },
     {
       "Id": "D:\\TPCN\\tp_chucnang\\src\\WebThucPhamChucNang\\WebThucPhamChucNang\\wwwroot\\images\\products\\vien-uong-felix-digetox-probiotic.jpg",

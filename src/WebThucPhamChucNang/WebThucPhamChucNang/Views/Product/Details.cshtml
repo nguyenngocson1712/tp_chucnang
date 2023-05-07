@@ -8,7 +8,7 @@
 
 <!-- Begin Main Content Area  -->
 <main class="main-content">
-    <div class="breadcrumb-area breadcrumb-height" data-bg-image="/assets/images/banner/2-1-1920x523.jpg">
+    <div class="breadcrumb-area breadcrumb-height" data-bg-image="/assets/images/banner/banner.jpg">
         <div class="container h-100">
             <div class="row h-100">
                 <div class="col-lg-12">
@@ -77,7 +77,7 @@
                                         </ul>
                                     </div>
                                     <div class="review-status ps-4">
-                                        <a href="javascript:void(0)">( 1 Customer Review )</a>
+                                        <a href="javascript:void(0)">( 0 Customer Review )</a>
                                     </div>
                                 </div>
                                 <p class="short-desc mb-6">
@@ -136,7 +136,7 @@
                     <ul class="nav product-tab-nav product-tab-style-2" role="tablist">
                         <li class="nav-item" role="presentation">
                             <a class="active btn btn-custom-size" id="description-tab" data-bs-toggle="tab" href="#description" role="tab" aria-controls="description" aria-selected="true">
-                                Mô tả sản phẩm
+                                Mô tả 
                             </a>
                         </li>
                         <li class="nav-item" role="presentation">
@@ -360,7 +360,7 @@
                     data: { productID: productid },
                     success: function (result) {
                         if (result.success) {
-                            loadHeaderCart();//Reload lai gio hang
+                            loadHeaderCart();Reload lai gio hang
                             location.reload();
                         }
                     },
